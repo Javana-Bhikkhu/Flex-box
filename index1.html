@@ -1,67 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive Web Design</title>
-        <link rel="stylesheet" href="./css/style1.css">
+        <title>Flex-Box</title>
+        <title>Flexbox</title>
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
         <body>
-            <!--header-->
-            <header>
-                <h1>welcome to the store</h1>
-                <p>when you change the screen size,the layout will change so you can view 
-                    the page comfortably no matter how small the screen gets!
-                </p>
+            <header class="main-header">
+                <h1>Welcome to the store</h1>
+                <h2>We sell stuff!</h2>
             </header>
-            <!--Navbar-->
-            <nav>
-                <a href="#">Camera</a>
-                <a href="#">Tablet</a>
-                <a href="#">Toilet Paper</a>
-                <a href="#">Wooden Spoons</a>
-            </nav>
-            <!--body-->
             <main>
-                <!--sidebar-->
-                <aside>
-                    <h2>when you change the screen size...</h2>
-                    <p>the navbar and this sidebar will be stacked on top of each other!</p>
-                    <p>and the product cards will wrap around as the screen gets smaller.</p>
-                </aside>
-                <!--product cards-->
-                <div class="products">
-                    <section class="card">
-                        <header>Camera</header>
-                        <img src="./images/camera.jpg" alt="black camera">
-                        <p>Price: $300</p>
-                    </section>
+                <section class="card">
+                    <header>Camera</header>
+                    <img src="assets/images/camera.jpg" alt="camera">
+                    <p>Price: $300</p>
+                </section>
 
-                    <section class="card">
-                        <header>Tablet</header>
-                        <img src="./images/tablet.jpg" alt="tablet held in hands">
-                        <p>Price: $150</p>
-                    </section>
+                <section class="card">
+                    <header>Tablet</header>
+                    <img src="assets/images/tablet.jpg" alt="tablet">
+                    <p>Price: $150</p>
+                </section>
 
-                    <section class="card">
-                        <header>Toilet Paper</header>
-                        <img src="./images/toilet-paper.jpg" alt="rolls of toilet paper in a basket">
-                        <p>Price: $30</p>
-                    </section>
+                <section class="card">
+                    <header>Toilet paper</header>
+                    <img src="assets/images/toilet-paper.jpg" alt="toilet-paper">
+                    <p>Price $30</p>
+                </section>
 
-                    <section class="card">
-                        <header>Wooden Spoons</header>
-                        <img src="./images/wooden-spoons.jpg" alt="4 wooden spoons with different seasonings">
-                        <p>Price: $10</p>
-                    </section>
-                </div>
+                <section class="card">
+                    <header>Wooden spoons</header>
+                    <img src="assets/images/wooden-spoons.jpg" alt="wooden-spoons">
+                    <p>Price $10</p>
+                </section>
+                
+                <section class="card">
+                    <header>Soap</header>
+                    <img src="assets/images/soap.jpg" alt="soap">
+                    <p>Price $5</p>
+                </section>
+
+                <section class="card">
+                    <header>Spinning Top</header>
+                    <img src="assets/images/spinning-top.jpg" alt="spinning-top">
+                    <p>Price $3</p>
+                </section>
             </main>
-
-            <!--footer-->
-            <footer>
-                <h3>open chrome Devtools--> toggle device toolbar--> resize the browser window!</h3>
-            </footer>
+            
         </body>
-
 </html>
